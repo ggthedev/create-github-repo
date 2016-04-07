@@ -1,7 +1,10 @@
 import commander from 'commander';
 
+let token = null;
+
 commander
   .version('0.0.1')
+  .arguments('<token>')
   .option('-n, --name [name]', 'Repository name', '')
   .option('-d, --desc [desc]', 'Repository description', '')
   .option('-H, --homepage [homepage]', 'Repository homepage', '')
@@ -12,6 +15,8 @@ commander
   .option('-a, --auto-init', 'Should repository have initial commit?', false)
   .option('-g, --gitignore', 'Should repository have wiki?', '')
   .parse(process.argv);
+
+export const cliToken = commander.args[0]; // <token>
 
 export const cliOptions = {
   name: commander.name,
