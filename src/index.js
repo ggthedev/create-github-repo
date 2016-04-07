@@ -1,14 +1,14 @@
 import GithubLib from 'github';
 import Promise from 'bluebird';
 
-import { cliOptions } from './cliHelper';
+import { cliOptions, cliToken } from './cliHelper';
 import { githubFactory } from './githubFactory';
 import { githubOptionsParser } from './githubOptionsParser';
 
 import { successHandler } from './successHandler';
 import { errorHandler } from './errorHandler';
 
-const githubToken = process.env.TEST_GITHUB_TOKEN;
+const githubToken = cliToken || process.env.CREATE_GITHUB_REPO_TOKEN || '';
 const github = githubFactory(githubToken);
 const createRepo = Promise.promisify(github.repos.create);
 
