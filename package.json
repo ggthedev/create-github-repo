@@ -1,6 +1,6 @@
 {
   "name": "create-github-repo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": ":muscle: Create Github repositories straight from command line.",
   "main": "lib/index.js",
   "scripts": {
