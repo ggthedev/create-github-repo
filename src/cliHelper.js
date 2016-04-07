@@ -3,7 +3,8 @@ import commander from 'commander';
 let token = null;
 
 commander
-  .version('0.0.1')
+  .version('0.1.0')
+  .usage('--name <name> [token] [options]')
   .arguments('<token>')
   .option('-n, --name [name]', 'Repository name', '')
   .option('-d, --desc [desc]', 'Repository description', '')
