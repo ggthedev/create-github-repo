@@ -1,6 +1,6 @@
 import commander from 'commander';
 
-export const cliHelper = commander
+commander
   .version('0.0.1')
   .option('-n, --name [name]', 'Repository name', '')
   .option('-d, --desc [desc]', 'Repository description', '')
@@ -12,3 +12,15 @@ export const cliHelper = commander
   .option('-a, --auto-init', 'Should repository have initial commit?', false)
   .option('-g, --gitignore', 'Should repository have wiki?', '')
   .parse(process.argv);
+
+export const cliOptions = {
+  name: commander.name,
+  description: commander.description,
+  homepage: commander.homepage,
+  private: commander.private,
+  has_issues: commander.hasIssues,
+  has_wiki: commander.hasWiki,
+  has_downloads: commander.hasDownloads,
+  auto_init: commander.autoInit,
+  gitignore_template: commander.gitignoreTemplate
+};
