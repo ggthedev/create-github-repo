@@ -1,6 +1,6 @@
 {
   "name": "create-github-repo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Create your github repos like a champ!",
   "main": "lib/index.js",
   "bin": "index.js",
