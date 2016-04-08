@@ -1,12 +1,12 @@
 import GithubLib from 'github';
 import Promise from 'bluebird';
 
-import { cliOptions, cliToken } from './cliHelper';
-import { githubFactory } from './githubFactory';
-import { githubOptionsParser } from './githubOptionsParser';
+import { cliOptions, cliToken } from './helpers/cliHelper';
+import { githubFactory } from './github/githubFactory';
+import { githubOptionsParser } from './github/githubOptionsParser';
 
-import { successHandler } from './successHandler';
-import { errorHandler } from './errorHandler';
+import { successHandler } from './responseHandlers/success';
+import { errorHandler } from './responseHandlers/error';
 
 const githubToken = cliToken || process.env.CREATE_GITHUB_REPO_TOKEN || '';
 const github = githubFactory(githubToken);
