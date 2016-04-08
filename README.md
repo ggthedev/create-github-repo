@@ -2,6 +2,8 @@
 
 # Create your github repos like a champ!
 
+[![npm version](https://badge.fury.io/js/create-github-repo.svg)](https://badge.fury.io/js/create-github-repo)
+
 That's right! There's no need to open your browser! :zap: It's incredibly fast and easy to use, 
 all you need to do is create your own [access token](https://github.com/settings/tokens/new) once 
 and you're ready to go! :raised_hands:
