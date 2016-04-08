@@ -5,7 +5,7 @@
 [![npm version](https://badge.fury.io/js/create-github-repo.svg)](https://badge.fury.io/js/create-github-repo)
 
 That's right! There's no need to open your browser! :zap: It's incredibly fast and easy to use, 
-all you need to do is create your own [access token](https://github.com/settings/tokens/new) once 
+all you need to do is create your own [access token (repo scope)](https://github.com/settings/tokens/new) only once 
 and you're ready to go! :raised_hands:
 
 Motivation for this project is to [save your precious time](https://xkcd.com/1205/), I think that the whole process
