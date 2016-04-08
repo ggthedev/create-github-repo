@@ -1,8 +1,9 @@
 {
   "name": "create-github-repo",
-  "version": "0.1.0",
-  "description": ":muscle: Create Github repositories straight from command line.",
+  "version": "0.1.2",
+  "description": "Create your github repos like a champ!",
   "main": "lib/index.js",
+  "bin": "lib/index.js",
   "scripts": {
     "clean": "rm -rf ./lib",
     "build": "",
@@ -16,7 +17,10 @@
   },
   "keywords": [
     "github",
-    "node"
+    "node",
+    "cli",
+    "tool",
+    "productivity"
   ],
   "author": "Oskar Cieslik <oskar.cieslik@gmail.com> (https://github.com/oskarcieslik)",
   "license": "MIT",
