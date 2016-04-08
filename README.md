@@ -37,11 +37,11 @@ or you can just pass it directly when using tool:
 
 #### Success
 
-![Success demo](http://i.imgur.com/gbOON0u.gif)
+![Success demo](http://f.cl.ly/items/0I3n161G032n3s2S2U03/Screen%20Recording%202016-04-08%20at%2001.49%20PM.gif)
 
 #### Failure
 
-![Failure demo](http://i.imgur.com/qwKpe0x.gif)
+![Failure demo](http://f.cl.ly/items/0n1R1A2J180P0j1H3m0J/Screen%20Recording%202016-04-08%20at%2001.50%20PM.gif)
   
 ## Inspiration
 
